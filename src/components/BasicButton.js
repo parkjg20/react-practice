@@ -1,3 +1,4 @@
+import "../stylesheets/basic-button.css"
 import React from "react";
 
 export default class BasicButton extends React.Component {
@@ -12,7 +13,7 @@ export default class BasicButton extends React.Component {
 
     render() {
         return (
-            <button onClick={ this.props.onClick } >
+            <button className="BasicButton" onClick={ this.props.onClick } >
                 { this.props.buttonName }
             </button>
         )

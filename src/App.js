@@ -1,17 +1,18 @@
 import './App.css';
-import BasicButton from './components/BasicButton'
-import RouterComponent from './routers/RouterComponent'
-import {Link} from "react-router-dom";
+import MainRoutes from "./routers/MainRoutes";
+import SideMenu from "./components/sidemenu/SideMenu";
 
 export default function App() {
     return (
         <div className="App">
-            <RouterComponent></RouterComponent>
-            <h2>Hello React</h2>
-            <Link to="/bind">
-                <BasicButton buttonName={"I'm Button"}>
-                </BasicButton>
-            </Link>
+            <div className="Snb">
+                <h2 className="Color-React">Tabs</h2>
+                <SideMenu />
+            </div>
+            <div className="Main">
+                <MainRoutes />
+
+            </div>
         </div>
     );
 }

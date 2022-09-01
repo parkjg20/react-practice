@@ -4,12 +4,32 @@
 }
 
 .App {
+  width: 100%;
+  height: 100%;
   text-align: center;
+
+  flex-direction: row;
 }
 
+.Snb {
+  flex-flow: column;
+}
+
+.Snb h2 {
+  padding: 32px 0;
+}
+
+.Main {
+  width: 100%;
+}
 
 .Centralized {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.Made-By {
+  font-size: 14px;
+  margin-top: 20px;
 }

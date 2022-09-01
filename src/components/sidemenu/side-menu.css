@@ -1,0 +1,32 @@
+
+.sideMenu {
+    width: 15vw;
+    height: 100vh;
+}
+
+.sideMenu ul {
+    text-align: left;
+    width: 100%;
+}
+
+.sideMenu ul li {
+    padding: 8px;
+    border-bottom: 1px solid gray;
+}
+
+.sideMenu ul li:last-child {
+    border-bottom: 0
+}
+
+.sideMenu ul li:hover {
+    background-color: #F4F4F4;
+}
+
+.sideMenu li h3 {
+    font-size: 22px;
+    color: #2b788c;
+    text-decoration: none;
+}
+.sideMenu ul li:hover h3 {
+    color: #61dafb;
+}

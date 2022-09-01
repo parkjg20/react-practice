@@ -1,18 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import Bind from "./components/bind/Bind";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.getElementById('root').classList = "flex Centralized";
 
 root.render(
     <BrowserRouter>
-        {/*<App />*/}
-        {/*<Bind />*/}
+        <App />
     </BrowserRouter>
 );
 
