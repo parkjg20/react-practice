@@ -1,6 +1,6 @@
 import './App.css';
 import MainRoutes from "./routers/MainRoutes";
-import SideMenu from "./components/sidemenu/SideMenu";
+import SideMenu from "./pages/SideMenu";
 
 export default function App() {
     return (

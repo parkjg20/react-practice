@@ -1,8 +1,8 @@
 
 import React from "react";
 import {Link} from "react-router-dom";
-import BasicButton from "../BasicButton";
-import ClickCountButton from "../ClickCountButton";
+import BasicButton from "../components/BasicButton";
+import ClickCountButton from "../components/ClickCountButton";
 
 export default class GetDataFromChild extends React.Component {
 

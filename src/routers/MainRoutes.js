@@ -1,7 +1,7 @@
 import {Route, Routes} from "react-router-dom";
 
 import React from "react";
-import Bind from "../components/bind/Bind";
+import Bind from "../pages/Bind";
 import Home from "../components/Home";
 import NotFound from "../components/NotFound";
 

@@ -1,4 +1,4 @@
-import './side-menu.css'
+import '../stylesheets/side-menu.css'
 import React from "react";
 import {Link} from "react-router-dom";
 

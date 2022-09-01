@@ -1,6 +1,6 @@
-import "../../stylesheets/bind/bind.css"
+import "../stylesheets/data/bind.css"
 import React from "react";
-import BasicButton from "../BasicButton";
+import BasicButton from "../components/BasicButton";
 
 export default class Bind extends React.Component {
 
@@ -13,7 +13,7 @@ export default class Bind extends React.Component {
     render() {
         return (
             <div className="Page-Bind">
-                <h1>Bind Test</h1>
+                <h1 className="Color-React">Bind Test</h1>
 
                 <div className="Input-Box">
                     <input
@@ -26,7 +26,7 @@ export default class Bind extends React.Component {
                     <br/>
                     <input type="text" readOnly={true} name="bind_target" value={ this.state.boundText }/>
                     <br/>
-                    <BasicButton buttonName={"Print!"} onClick={() => {
+                    <BasicButton buttonName={"Bind!"} onClick={() => {
                         this.setState({
                             boundText: this.state.text
                         })
