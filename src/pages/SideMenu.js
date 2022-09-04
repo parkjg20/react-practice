@@ -18,6 +18,11 @@ export default class SideMenu extends React.Component {
                             <h3 className="">Bind</h3>
                         </Link>
                     </li>
+                    <li>
+                        <Link to="/conditional-rendering">
+                            <h3 className="">Conditional-Rendering</h3>
+                        </Link>
+                    </li>
                 </ul>
             </div>
         )
